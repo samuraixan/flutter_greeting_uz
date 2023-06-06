@@ -217,7 +217,7 @@ class MyAppState extends State <MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Hol Ahvol So`rash"),
+          title: const Text("Hol Ahvol So`rash"),
         ),
         body: Padding(
           padding: const EdgeInsets.all(20.0),
@@ -225,12 +225,12 @@ class MyAppState extends State <MyApp> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text(gap, style: TextStyle(
+              Text(gap, style: const TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
               ),),
               ElevatedButton(onPressed: qaytar,
-                child: Text("Salom", style: TextStyle(
+                child: const Text("Salom", style: TextStyle(
                   fontSize: 30,
                 ),),
               ),
